@@ -1,0 +1,110 @@
+/* styles.css */
+
+html,
+body {
+	height: 100%;
+}
+img {
+	max-width: 100%;
+}
+/* have h1 tags with display-4 class have black text */
+.display-4 {
+	color:white;
+	font-family: Verdana, sans-serif;
+	font-style: italic;
+}
+
+href {
+	font-style: italic;
+	font-weight: bolder;
+}
+/* set opacity of background image to 80% */
+
+
+
+/* cover  settings;
+* background image to cover the width of the screen
+* center text and use flexbox
+* text is black
+*/
+#cover {
+	background: #222 url('../images/salad_dark.jpg') center center no-repeat;
+	background-size: cover;
+	color: white;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+#cover-caption {
+	width: 100%;
+}
+
+.section-content{
+	padding: 5rem 0;
+}
+
+#about {
+	background: url('#') center center no-repeat;
+	background-size: cover;
+}
+
+/* 80% transparency */
+.about-text {
+	background: rgba(0,0,0,0.8);
+	color: white;
+	padding: 1.875rem;
+}
+
+.container{
+
+}
+/*  our mission */
+#our-mission {
+	background:green;
+
+}
+
+/* registration form css */
+/* have background image for registration form */
+#register {
+	background: #222 url('../images/beesanddanelions.jpeg') center center no-repeat;
+	background-size: cover;
+	color: black;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+
+/* css for confirmation page */
+.confirm {
+	color: red;
+	font-style: bold;
+	font-size: 200%;
+}
+/* contact page css */
+/* have background image for contact form */
+#contact {
+	background: #222 url('../images/contactUs.jpg') center center no-repeat;
+	background-size: cover;
+	color:green;
+	height: 100%;
+	text-align: center;
+	display: flex;
+	align-items: center;
+}
+/* css for lead paragraphs on home page */
+.lead {
+	font-style: italic;
+	color: #ffbf00;
+}
+
+/* styling for cards */
+.card {
+	background-color: orange;
+	font-style: italic;
+	font-size: 150%;
+	text-align: center;
+}
